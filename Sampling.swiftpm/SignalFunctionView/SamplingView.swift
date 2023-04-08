@@ -73,6 +73,7 @@ struct SamplingView: View {
                                 .onTapGesture {
                                     
                                     signal = generateRectSignal()
+                                    sampleRate = sampleRate - 1.1
                                     buttonToggleRect.toggle()
                                     buttonToggleTri = false
                                     buttonToggleSin = false

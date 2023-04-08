@@ -57,9 +57,9 @@ struct ConversionView: View {
                 Text("The analog to digital conversion is of fundamental importance, all the technology that we use and that we are using right now is based on this. For example, a microphone is a transducer that converts an analog signal into a digital signal.")
                     .padding()
                 
-                Image("microfono-carbone")
+                Image("Microphone")
                     .resizable()
-                    .frame(width: 600, height: 250)
+                    .frame(width: 700, height: 300)
                     .scaledToFit()
                     .padding()
                 
